@@ -32,10 +32,10 @@ pod "XWRiskAverseKit"
 #import "XWRiskAverseKit.h"
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 {
-	[[RaServiceCenter defaultCenter] open];
-	return YES;
+    [[RaServiceCenter defaultCenter] open];
+    return YES;
 }
 ```
 
