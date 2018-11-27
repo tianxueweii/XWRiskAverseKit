@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Introduce
 
-The XWRiskAverseKit project attempt to no intrusion your code and help you to solve the common crash. You can user Cocoapods easy install or copy the repository by yourself. If your project has already import Bugly, XWRiskAverseKit will help you upload error info to your Bugly.
+The `XWRiskAverseKit` project attempt to no intrusion your code and help you to solve the common crash. You can user `Cocoapods` easy install or copy the repository by yourself. If your project has already import `Bugly`, `XWRiskAverseKit` will help you upload error info to your `Bugly`.
 
 ## Understand
 
