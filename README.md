@@ -9,7 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Understand
+
+Please run `$ git clone https://github.com/tianxueweii/XWRiskAverseKit.git` clone the repository to your local store and open `iOS异常处理与容错机制.key`
 
 ## Installation
 
