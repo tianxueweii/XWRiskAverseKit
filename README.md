@@ -9,9 +9,13 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Introduce
+
+The XWRiskAverseKit project attempt to no intrusion your code and help you to solve the common crash. You can user Cocoapods easy install or copy the repository by yourself. If your project has already import Bugly, XWRiskAverseKit will help you upload error info to your Bugly.
+
 ## Understand
 
-Please run `$ git clone https://github.com/tianxueweii/XWRiskAverseKit.git` clone the repository to your local store and open `iOS异常处理与容错机制.key`
+Please run `$ git clone https://github.com/tianxueweii/XWRiskAverseKit.git` clone the repository to your local store and open `iOS异常处理与容错机制.key` to learn more.
 
 ## Installation
 
@@ -20,6 +24,19 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "XWRiskAverseKit"
+```
+
+## Use
+
+```objc
+#import "XWRiskAverseKit.h"
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+	[[RaServiceCenter defaultCenter] open];
+	return YES;
+}
 ```
 
 ## Author
