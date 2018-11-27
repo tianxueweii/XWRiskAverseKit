@@ -1,6 +1,5 @@
 # XWRiskAverseKit
 
-[![CI Status](http://img.shields.io/travis/tianxueweii/XWRiskAverseKit.svg?style=flat)](https://travis-ci.org/tianxueweii/XWRiskAverseKit)
 [![Version](https://img.shields.io/cocoapods/v/XWRiskAverseKit.svg?style=flat)](http://cocoapods.org/pods/XWRiskAverseKit)
 [![License](https://img.shields.io/cocoapods/l/XWRiskAverseKit.svg?style=flat)](http://cocoapods.org/pods/XWRiskAverseKit)
 [![Platform](https://img.shields.io/cocoapods/p/XWRiskAverseKit.svg?style=flat)](http://cocoapods.org/pods/XWRiskAverseKit)
@@ -11,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Introduce
 
-The `XWRiskAverseKit` project attempt to no intrusion your code and help you to solve the common crash. You can user `Cocoapods` easy install or copy the repository by yourself. If your project has already import `Bugly`, `XWRiskAverseKit` will help you upload error info to your `Bugly`.
+The `XWRiskAverseKit` project attempt to no intrusion your code and help you to solve the common crash. You can use `Cocoapods` easy install or clone the repository by yourself. If your project has already import `Bugly`, `XWRiskAverseKit` will help you upload error info to your `Bugly`.
 
 ## Understand
 
