@@ -35,6 +35,10 @@ Pod::Spec.new do |s|
 
     # Pod文件
     s.source_files = 'XWRiskAverseKit/Classes/**/*'
+    
+    s.pod_target_xcconfig = {
+        'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+    }
 
     # 资源Bundle名称
     # s.resource_bundles = {

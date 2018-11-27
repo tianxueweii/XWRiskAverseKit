@@ -1,5 +1,3 @@
-
-
 #inhibit_all_warnings!
 
 target 'XWRiskAverseKit_Example' do
