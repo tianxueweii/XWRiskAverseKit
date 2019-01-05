@@ -27,6 +27,8 @@ pod "XWRiskAverseKit"
 
 ## Use
 
+Easy use `RaServiceCenter` protect your application:
+
 ```objc
 #import "XWRiskAverseKit.h"
 
@@ -34,6 +36,33 @@ pod "XWRiskAverseKit"
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 {
     [[RaServiceCenter defaultCenter] open];
+    return YES;
+}
+```
+
+If your dont want some special class be intercepted, you can setup class white list. 
+
+```objc
+#import "XWRiskAverseKit.h"
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+{
+    [[RaServiceCenter defaultCenter] open];
+    [[RaWhiteListUtil shareInstance] registerWhiteList:@[@"YourClassName"]];
+    return YES;
+}
+```
+
+You can easily upload error info to your `Bugly`.
+
+```objc
+#import "XWRiskAverseKit.h"
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+{
+    [[RaServiceCenter defaultCenter] openAndStartBuglyWithAppId:@"XXX"];
     return YES;
 }
 ```
